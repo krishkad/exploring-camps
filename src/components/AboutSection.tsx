@@ -24,10 +24,10 @@ const AboutSection = () => {
             transition={{ duration: 0.6 }}
             className="relative"
           >
-            <div className="image-hover rounded-2xl overflow-hidden aspect-[3/4] max-w-md">
+            <div className="image-hover rounded-2xl overflow-hidden aspect-[3/4] max-w-xl">
               <img src={camperImg.src} alt="Camper in tent" className="w-full h-full object-cover" />
             </div>
-            <div className="absolute -bottom-6 -right-6 w-48 h-48 rounded-2xl overflow-hidden border-4 border-camping-cream hidden md:block">
+            <div className="absolute -bottom-10 -right-5 w-56 h-56 rounded-2xl overflow-hidden border-4 border-camping-cream hidden md:block">
               <img src={tentImg.src} alt="Camping tent" className="w-full h-full object-cover" />
             </div>
           </motion.div>
@@ -50,10 +50,10 @@ const AboutSection = () => {
               under the stars, and innovative camping accessories designed to make every moment
               in the wilderness memorable.
             </p>
-            <a href="#booking" className="btn-camping-outline mt-6 border-foreground/20 text-foreground hover:bg-foreground/5 hover:border-foreground/40">
+            {/* <a href="#booking" className="btn-camping-outline mt-6 border-foreground/20 text-foreground hover:bg-foreground/5 hover:border-foreground/40">
               About Us
               <ArrowRight className="h-4 w-4" />
-            </a>
+            </a> */}
 
             {/* Stats */}
             <div className="flex gap-10 mt-10">

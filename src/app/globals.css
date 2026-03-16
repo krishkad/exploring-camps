@@ -54,6 +54,7 @@
   --color-camping-dark: hsl(var(--camping-dark));
   --color-camping-cream: hsl(var(--camping-cream));
   --color-camping-gray: hsl(var(--camping-gray));
+  --color-camping-text-light: hsl(var(--camping-text-light));
 }
 
 :root {
@@ -261,4 +262,21 @@
 
 html {
   scroll-behavior: smooth;
+}
+
+.container {
+  width: 100%;
+  @media (width >= 40rem /* 640px */) {
+    max-width: 40rem /* 640px */;
+  }
+  @media (width >= 48rem /* 768px */) {
+    max-width: 48rem /* 768px */;
+  }
+  @media (width >= 64rem /* 1024px */) {
+    max-width: 64rem /* 1024px */;
+  }
+
+  @media (width >= 80rem /* 1536px */) {
+    max-width: 96rem /* 1536px */;
+  }
 }
